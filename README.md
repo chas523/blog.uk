@@ -6,3 +6,5 @@ Adding posts
 Deleting posts by id
 
 <img src="/delete.gif" width="700"/>
+<hr>
+Updating posts
