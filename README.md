@@ -1,2 +1,8 @@
 Adding posts
-![test image size](/add.gif)
+
+<img src="/add.gif" width="700"/>
+<hr>
+
+Deleting posts by id
+
+<img src="/delete.gif" width="700"/>
