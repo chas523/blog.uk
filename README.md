@@ -1,2 +1,2 @@
 add content
-![test image size](/add.gif){:class="img-responsive"}
+![test image size](/add.gif)
