@@ -1,0 +1,34 @@
+.sendPost {
+  padding-top: 110px;
+}
+.sendPost h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.sendPost .input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+.sendPost textarea {
+  width: 100%;
+  white-space: nowrap;
+  border: 1px solid black;
+  overflow: auto;
+}
+.sendPost button {
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+  background-color: white;
+  transition: 0.5s all;
+}
+.sendPost button:hover {
+  background-color: black;
+  color: white;
+}
+
+.update {
+  min-height: 600px;
+}

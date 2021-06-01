@@ -1,0 +1,167 @@
+@import 'header'; 
+@import 'footer'; 
+
+.top-img {
+	.container {
+		.img {
+			margin-top: 72px;
+			display: block;
+			width: 100%;
+			height: auto;
+			caret-color: transparent;
+		}
+	}
+}
+.subtitle {
+	color: #b4ad9e;
+	font-size: 14px;
+	font-weight: 300px;
+	font-family: Ubuntu;
+	text-align: left;
+	text-transform: uppercase;
+	caret-color: transparent;
+	.subtitle_link {
+		text-decoration: none;
+		&:hover {
+			color: grey;
+		}
+	}
+}
+.subtitle_link {
+	color: #b4ad9e;
+	font-size: 14px;
+	font-weight: 300px;
+	font-family: Ubuntu;
+	text-align: left;
+	text-transform: uppercase;
+	caret-color: transparent;
+	.subtitle_link {
+		text-decoration: none;
+		&:hover {
+			color: grey;
+		}
+	}
+}
+.title {
+	a {
+		-webkit-text-decoration: noen;
+		text-decoration: noen;
+		color: #626262;
+		font-family: "Playfair Display";
+		font-size: 30px;
+		font-weight: 400;
+	}
+}
+.photodiary {
+	padding-top: 99px;
+	// padding-left: 81px;
+	.dscr {
+		margin-top: 34px;
+		padding-right: 90px;
+	}
+}
+.lifestyle {
+	padding-top: 135px;
+	padding-bottom: 122px;
+	// padding-left: 81px;
+	img {
+		width: 100%;
+		height: auto;
+		caret-color: transparent;
+	}
+	.row {
+		&:nth-child(2) {
+			margin-top: 136px;
+		}
+	}
+}
+.more {
+	padding-top: 135px;
+	padding-bottom: 122px;
+	// padding-left: 81px;
+	min-height: 1500px;
+	img {
+		width: 100%;
+		height: auto;
+		caret-color: transparent;
+	}
+	.row {
+		&:nth-child(2) {
+			margin-top: 136px;
+		}
+	}
+}
+.newsletter {
+	min-height: 287px;
+	background-color: #f0f0f0;
+	h2 {
+		text-align: center;
+		padding-top: 73px;
+		color: #333333;
+		font-family: "Playfair Display";
+		font-size: 30px;
+		font-weight: 400;
+	}
+	.block {
+		form {
+			position: relative;
+			width: 400px;
+			margin: 0 auto;
+		}
+		input {
+			margin-top: 83px;
+			width: 100%;
+			text-align: left;
+			display: block;
+			height: 3em;
+			border: 1px solid;
+			outline: none;
+			border: none;
+			border-bottom: 1px solid black;
+			background-color: rgba(0, 0, 0, 0);
+		}
+		button {
+			display: block;
+			margin: 0 auto;
+			position: absolute;
+			top: 15px;
+			right: 5px;
+			border: none;
+			width: 32px;
+			height: 17px;
+		}
+	
+	}
+}
+.btn_more {
+	width: 164px;
+	height: 60px;
+	border: 1px solid grey;
+	margin: 0 auto;
+	margin-top: 165px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	cursor: pointer;
+	transition: 0.5s all;
+	button {
+		outline: none;
+		border: none; 
+		width: 100%;
+		height: 100%;
+		transition: 0.5s all;
+		&:hover {
+			background-color: black;
+			color: white;
+		}
+	}
+	
+}
+.cont_more{
+	transition: 2s all;
+}
+.hidden{
+	display: none;
+
+}
