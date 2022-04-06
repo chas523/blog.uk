@@ -1,10 +1,10 @@
 instruction
 
 - clone the repository 
-- ``composer update --ignore-platform-reqs``
-- ``npm instal ``
-- create a database for the project 
-- create .env file into project and configure it by .env.example 
+- ``compser install``(if this command give you error like: ``"Your lock file does not contain a compatible set of packages please run composer update``) you can solve this problem by  ``composer update --ignore-platform-reqs``
+- ``npm instal``
+- create a database for the project (for example in phpmyadmin) 
+- create .env file into project and configure it like ``.env.example``
 - ``php artisan migrate``
 - ``php artisan serve``
 
