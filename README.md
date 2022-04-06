@@ -1,7 +1,7 @@
 instruction
 
 - clone the repository 
-- ``composer install`` if you get error massage, you can run ``composer update --ignore-platform-reqs``
+- ``composer update --ignore-platform-reqs``
 - ``npm instal ``
 - create a database for the project 
 - create .env file into project and configure it by .env.example 
